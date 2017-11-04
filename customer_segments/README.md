@@ -2,7 +2,9 @@
 
 ## Project Overview
 
-In this project, we are going to apply unsupervised techniques on product spending data collected for customers of a wholesale distributor. We aim to identify customer segments hidden in the data. We first explore the data by selecting a small subset to determine if any product categories are highly correlated with one another. Afterwards, we will preprocess the data by scaling each product category and then removing unwanted outliers. With the good, clean data, we apply PCA transformations to the data and implement GMM clustering algorithms to segment the transformed customer data. Finally, we compare the segmentation found with an additional labeling and consider ways this transformation could assist the whole sale distributor with future service. 
+In this project, we are going to apply unsupervised learning techniques on product spending data collected for customers of a wholesale distributor. We aim to identify customer segments hidden in the data. We first explore the data by selecting a small subset to determine if any product categories are highly correlated with one another. Afterwards, we will preprocess the data by scaling each product category and then removing unwanted outliers. With the good, clean data, we apply PCA transformations to the data and implement Gaussian Mixture Model clustering algorithms to segment the transformed customer data. Finally, we compare the segmentation found with an additional labeling and consider ways this transformation could assist the whole sale distributor with future service. 
+
+<img src="https://user-images.githubusercontent.com/17235054/32409747-e0df6b38-c187-11e7-82a1-13c946791803.png" width=800, height=350>
 
 ## Highlights
 
