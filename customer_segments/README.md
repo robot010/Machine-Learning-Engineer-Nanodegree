@@ -1,36 +1,13 @@
 # Content: Unsupervised Learning
-## Project: Creating Customer Segments
 
-### Install
+## Project Overview
 
-This project requires **Python 2.7** and the following Python libraries installed:
+In this project, we are going to apply unsupervised techniques on product spending data collected for customers of a wholesale distributor. We aim to identify customer segments hidden in the data. We first explore the data by selecting a small subset to determine if any product categories are highly correlated with one another. Afterwards, we will preprocess the data by scaling each product category and then removing unwanted outliers. With the good, clean data, we apply PCA transformations to the data and implement GMM clustering algorithms to segment the transformed customer data. Finally, we compare the segmentation found with an additional labeling and consider ways this transformation could assist the whole sale distributor with future service. 
 
-- [NumPy](http://www.numpy.org/)
-- [Pandas](http://pandas.pydata.org)
-- [matplotlib](http://matplotlib.org/)
-- [scikit-learn](http://scikit-learn.org/stable/)
+## Highlights
 
-You will also need to have software installed to run and execute a [Jupyter Notebook](http://ipython.org/notebook.html)
+This project is designed to get hands-on experience with unsupervised learning and work towards developing conclusions for a potential client on a real-world dataset. We are tring to understand the meaningful relationship hidden in the company's customers and clientele. Being equipped with this information, we would be able to assist a company engineer future products and services that best satisfy the demands of their customers. 
 
-If you do not have Python installed yet, it is highly recommended that you install the [Anaconda](http://continuum.io/downloads) distribution of Python, which already has the above packages and more included. Make sure that you select the Python 2.7 installer and not the Python 3.x installer. 
-
-### Code
-
-Template code is provided in the `customer_segments.ipynb` notebook file. You will also be required to use the included `visuals.py` Python file and the `customers.csv` dataset file to complete your work. While some code has already been implemented to get you started, you will need to implement additional functionality when requested to successfully complete the project. Note that the code included in `visuals.py` is meant to be used out-of-the-box and not intended for students to manipulate. If you are interested in how the visualizations are created in the notebook, please feel free to explore this Python file.
-
-### Run
-
-In a terminal or command window, navigate to the top-level project directory `customer_segments/` (that contains this README) and run one of the following commands:
-
-```bash
-ipython notebook customer_segments.ipynb
-```  
-or
-```bash
-jupyter notebook customer_segments.ipynb
-```
-
-This will open the Jupyter Notebook software and project file in your browser.
 
 ## Data
 
