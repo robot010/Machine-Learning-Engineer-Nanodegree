@@ -10,6 +10,32 @@ In this project, we are going to apply unsupervised learning techniques on produ
 
 This project is designed to get hands-on experience with unsupervised learning and work towards developing conclusions for a potential client on a real-world dataset. We are tring to understand the meaningful relationship hidden in the company's customers and clientele. Being equipped with this information, we would be able to assist a company engineer future products and services that best satisfy the demands of their customers. 
 
+## Content
+
+- Data Exploration
+  - General statistical description.
+  - Generate heatmap on three selected samples to get an intuitive understanding of features' relationship.
+  - Feature Relevance Analysis using Decision Tree Regressor. 
+  - Feature Distribution Visualization by constructing scatter matrix and heatmap for correlation.
+  - <img src="https://user-images.githubusercontent.com/17235054/32410431-19ce438e-c196-11e7-9efb-25e03706b908.png"> 
+- Data Preprocessing
+  - Logarithm Transformation. 
+  - Use Turkey's Method to detect Outlier.
+- Data Transformation
+  - Implement Princial Component Analysis (PCA) on training set, and report explained variance ratio of each dimension. 
+  - <img src="https://user-images.githubusercontent.com/17235054/32410641-1ff2b492-c19c-11e7-92a8-f1f843ca45f8.png">
+  - PCA feature dimension analysis and calculate the cumulative explained variance ratio to determine how many dimensions are necessary for the problem.
+  - Dimension reduction on original data using PCA. 
+  - Visualized principal components using biplot. 
+  - <img src="https://user-images.githubusercontent.com/17235054/32410740-76c0a12e-c19e-11e7-85c3-9853cc7c3866.png">
+- Clustering
+  - Quantify the "goodness" of a clustering by calculating each data point's silhouette coefficient
+  - Implement Gaussian Mixture Model on data. 
+  - Cluster Visualization.
+  - <img src="https://user-images.githubusercontent.com/17235054/32410763-c9ed1080-c19e-11e7-8c0a-d6c330ab6e7f.png">
+- Conclusion
+  - Give suggestions to the wholesale distributor on the change of delivery policy using the above analysis. 
+  
 
 ## Data
 
