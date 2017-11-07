@@ -19,20 +19,22 @@ This project is designed to get hands-on experience with unsupervised learning a
   - Feature Distribution Visualization by constructing scatter matrix and heatmap for correlation.
   - <img src="https://user-images.githubusercontent.com/17235054/32410431-19ce438e-c196-11e7-9efb-25e03706b908.png"> 
 - Data Preprocessing
-  - Logarithm Transformation. 
+  - Logarithm Transformation and Standardization. 
+  - <img src="https://user-images.githubusercontent.com/17235054/32513518-724ee1d8-c3c8-11e7-9580-f735cf782b81.png">
+  - <img src="https://user-images.githubusercontent.com/17235054/32513519-725b0ddc-c3c8-11e7-88fa-f6cba705d37a.png">
   - Use Turkey's Method to detect Outlier.
 - Data Transformation
   - Implement Princial Component Analysis (PCA) on training set, and report explained variance ratio of each dimension. 
-  - <img src="https://user-images.githubusercontent.com/17235054/32410641-1ff2b492-c19c-11e7-92a8-f1f843ca45f8.png">
+  - <img src="https://user-images.githubusercontent.com/17235054/32410641-1ff2b492-c19c-11e7-92a8-f1f843ca45f8.png" width=700 height=350>
   - PCA feature dimension analysis and calculate the cumulative explained variance ratio to determine how many dimensions are necessary for the problem.
   - Dimension reduction on original data using PCA. 
   - Visualized principal components using biplot. 
-  - <img src="https://user-images.githubusercontent.com/17235054/32410740-76c0a12e-c19e-11e7-85c3-9853cc7c3866.png">
+  - <img src="https://user-images.githubusercontent.com/17235054/32410740-76c0a12e-c19e-11e7-85c3-9853cc7c3866.png" width=700 height=350>
 - Clustering
   - Quantify the "goodness" of a clustering by calculating each data point's silhouette coefficient
   - Implement Gaussian Mixture Model on data. 
   - Cluster Visualization.
-  - <img src="https://user-images.githubusercontent.com/17235054/32410763-c9ed1080-c19e-11e7-8c0a-d6c330ab6e7f.png">
+  - <img src="https://user-images.githubusercontent.com/17235054/32410763-c9ed1080-c19e-11e7-8c0a-d6c330ab6e7f.png" width=700 height=350>
 - Conclusion
   - Give suggestions to the wholesale distributor on the change of delivery policy using the above analysis. 
   
