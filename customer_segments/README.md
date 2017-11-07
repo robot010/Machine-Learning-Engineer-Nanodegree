@@ -1,36 +1,41 @@
 # Content: Unsupervised Learning
-## Project: Creating Customer Segments
 
-### Install
+## Project Overview
 
-This project requires **Python 2.7** and the following Python libraries installed:
+In this project, we are going to apply unsupervised learning techniques on product spending data collected for customers of a wholesale distributor. We aim to identify customer segments hidden in the data. We first explore the data by selecting a small subset to determine if any product categories are highly correlated with one another. Afterwards, we will preprocess the data by scaling each product category and then removing unwanted outliers. With the good, clean data, we apply PCA transformations to the data and implement Gaussian Mixture Model clustering algorithms to segment the transformed customer data. Finally, we compare the segmentation found with an additional labeling and consider ways this transformation could assist the whole sale distributor with future service. 
 
-- [NumPy](http://www.numpy.org/)
-- [Pandas](http://pandas.pydata.org)
-- [matplotlib](http://matplotlib.org/)
-- [scikit-learn](http://scikit-learn.org/stable/)
+<img src="https://user-images.githubusercontent.com/17235054/32409747-e0df6b38-c187-11e7-82a1-13c946791803.png" width=800, height=350>
 
-You will also need to have software installed to run and execute a [Jupyter Notebook](http://ipython.org/notebook.html)
+## Highlights
 
-If you do not have Python installed yet, it is highly recommended that you install the [Anaconda](http://continuum.io/downloads) distribution of Python, which already has the above packages and more included. Make sure that you select the Python 2.7 installer and not the Python 3.x installer. 
+This project is designed to get hands-on experience with unsupervised learning and work towards developing conclusions for a potential client on a real-world dataset. We are tring to understand the meaningful relationship hidden in the company's customers and clientele. Being equipped with this information, we would be able to assist a company engineer future products and services that best satisfy the demands of their customers. 
 
-### Code
+## Content
 
-Template code is provided in the `customer_segments.ipynb` notebook file. You will also be required to use the included `visuals.py` Python file and the `customers.csv` dataset file to complete your work. While some code has already been implemented to get you started, you will need to implement additional functionality when requested to successfully complete the project. Note that the code included in `visuals.py` is meant to be used out-of-the-box and not intended for students to manipulate. If you are interested in how the visualizations are created in the notebook, please feel free to explore this Python file.
-
-### Run
-
-In a terminal or command window, navigate to the top-level project directory `customer_segments/` (that contains this README) and run one of the following commands:
-
-```bash
-ipython notebook customer_segments.ipynb
-```  
-or
-```bash
-jupyter notebook customer_segments.ipynb
-```
-
-This will open the Jupyter Notebook software and project file in your browser.
+- Data Exploration
+  - General statistical description.
+  - Generate heatmap on three selected samples to get an intuitive understanding of features' relationship.
+  - Feature Relevance Analysis using Decision Tree Regressor. 
+  - Feature Distribution Visualization by constructing scatter matrix and heatmap for correlation.
+  - <img src="https://user-images.githubusercontent.com/17235054/32410431-19ce438e-c196-11e7-9efb-25e03706b908.png"> 
+- Data Preprocessing
+  - Logarithm Transformation. 
+  - Use Turkey's Method to detect Outlier.
+- Data Transformation
+  - Implement Princial Component Analysis (PCA) on training set, and report explained variance ratio of each dimension. 
+  - <img src="https://user-images.githubusercontent.com/17235054/32410641-1ff2b492-c19c-11e7-92a8-f1f843ca45f8.png">
+  - PCA feature dimension analysis and calculate the cumulative explained variance ratio to determine how many dimensions are necessary for the problem.
+  - Dimension reduction on original data using PCA. 
+  - Visualized principal components using biplot. 
+  - <img src="https://user-images.githubusercontent.com/17235054/32410740-76c0a12e-c19e-11e7-85c3-9853cc7c3866.png">
+- Clustering
+  - Quantify the "goodness" of a clustering by calculating each data point's silhouette coefficient
+  - Implement Gaussian Mixture Model on data. 
+  - Cluster Visualization.
+  - <img src="https://user-images.githubusercontent.com/17235054/32410763-c9ed1080-c19e-11e7-8c0a-d6c330ab6e7f.png">
+- Conclusion
+  - Give suggestions to the wholesale distributor on the change of delivery policy using the above analysis. 
+  
 
 ## Data
 
