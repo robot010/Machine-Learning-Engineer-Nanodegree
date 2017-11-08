@@ -2,36 +2,33 @@
 # Supervised Learning
 ## Project: Finding Donors for CharityML
 
-### Install
+### Project Overview
+In this project, we will apply supervised learning techniques and an analytical mind on data collected for the U.S. census to help CharityML identify people most likely to donate to their cause. We will first explore the data to see how it's recorded. Next, we will apply a series of transformations and preprocessing techniques to manipulate the data into a workable format. We will then evaluate serveral supervised learners of our choice on the data, and consider which is best suited for the solution. Afterwards, we will optimized the model and present it as our solution to CharityML. 
 
-This project requires **Python 2.7** and the following Python libraries installed:
+### Project Highlights
+This project is designed to get us accquainted with supervised learning algoriths available in sklearn, and to also provide for a method for evaluating just how each model works and performs on a certain type of data. It is important in Machine Learning to understand exactly when and where a certain algorithm should be used. 
 
-- [NumPy](http://www.numpy.org/)
-- [Pandas](http://pandas.pydata.org)
-- [matplotlib](http://matplotlib.org/)
-- [scikit-learn](http://scikit-learn.org/stable/)
+### Content
+- Data Exploration
+  - General Statistic description
+  - Feature Exploration
+- Data Preprocessing
+  - Applied logarithmic transform to highly skewed features
+  - Normalizing numeric features
+  - One-hot encoded categorical features
+- Evaluate Model Performance
+  - Metrics selection
+  - Evaluate pros and cons of Decision Tree Classifier, Support Vector Machine and Gradient Boosting Classifier
+  - Implement and Compare these three classifiers.
+  - <img src="https://user-images.githubusercontent.com/17235054/32567714-1dd2fcda-c48a-11e7-9182-fd4df8781b86.png" width=700 height=400>
+  - Selecting the best model and optimized its performance using GridSearch. 
+- Feature Relevance Observation
+  - Extracted feature importance from Adaboost.
+  - <img src="https://user-images.githubusercontent.com/17235054/32568143-6a8857b8-c48b-11e7-8b06-683b6711bba6.png" width=400 height=250>
+  - Trained classifier with and without feature selection.
+  - Compared and analyzed the effect of feature selection. 
 
-You will also need to have software installed to run and execute an [iPython Notebook](http://ipython.org/notebook.html)
 
-We recommend students install [Anaconda](https://www.continuum.io/downloads), a pre-packaged Python distribution that contains all of the necessary libraries and software for this project. 
-
-### Code
-
-Template code is provided in the `finding_donors.ipynb` notebook file. You will also be required to use the included `visuals.py` Python file and the `census.csv` dataset file to complete your work. While some code has already been implemented to get you started, you will need to implement additional functionality when requested to successfully complete the project. Note that the code included in `visuals.py` is meant to be used out-of-the-box and not intended for students to manipulate. If you are interested in how the visualizations are created in the notebook, please feel free to explore this Python file.
-
-### Run
-
-In a terminal or command window, navigate to the top-level project directory `finding_donors/` (that contains this README) and run one of the following commands:
-
-```bash
-ipython notebook finding_donors.ipynb
-```  
-or
-```bash
-jupyter notebook finding_donors.ipynb
-```
-
-This will open the iPython Notebook software and project file in your browser.
 
 ### Data
 
