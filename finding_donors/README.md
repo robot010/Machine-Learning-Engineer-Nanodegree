@@ -9,19 +9,23 @@ In this project, we will apply supervised learning techniques and an analytical 
 This project is designed to get us accquainted with supervised learning algoriths available in sklearn, and to also provide for a method for evaluating just how each model works and performs on a certain type of data. It is important in Machine Learning to understand exactly when and where a certain algorithm should be used. 
 
 ### Content
+
 - Data Exploration
   - General Statistic description
   - Feature Exploration
+  
 - Data Preprocessing
   - Applied logarithmic transform to highly skewed features
   - Normalizing numeric features
   - One-hot encoded categorical features
+  
 - Evaluate Model Performance
   - Metrics selection
   - Evaluate pros and cons of Decision Tree Classifier, Support Vector Machine and Gradient Boosting Classifier
   - Implement and Compare these three classifiers.
   - <img src="https://user-images.githubusercontent.com/17235054/32567714-1dd2fcda-c48a-11e7-9182-fd4df8781b86.png" width=700 height=400>
   - Selecting the best model and optimized its performance using GridSearch. 
+  
 - Feature Relevance Observation
   - Extracted feature importance from Adaboost.
   - <img src="https://user-images.githubusercontent.com/17235054/32568143-6a8857b8-c48b-11e7-8b06-683b6711bba6.png" width=400 height=250>
