@@ -7,9 +7,13 @@ I tried to make it as clear as possible so that you can understand what we have 
 
 Feel free to make pull request if you found any mistake.
 
-The first mini-projects, **finding-donors**, utilized supervised learning methods, it aims to predict who's
+##finding-donors
+
+This project utilized supervised learning methods, it aims to predict who's
 more likely to donate to a charity organization given the U.S. census data. 
 
-The second mini-projects, **customer-segments**, focuses on unsupervised learning method. It tries to segment customers of 
+##customer-segments
+
+This project focuses on unsupervised learning method. It tries to segment customers of 
 a whole sale distributor into different groups, and finds the hidden relationship of features within each group. Based on the
 analysis, we would be able to give valuable advice to the distributor with regard to the change of their delievery policy. 
