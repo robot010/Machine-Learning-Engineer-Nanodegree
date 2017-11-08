@@ -20,12 +20,12 @@ This project is designed to get hands-on experience with unsupervised learning a
   - <img src="https://user-images.githubusercontent.com/17235054/32410431-19ce438e-c196-11e7-9efb-25e03706b908.png"> 
 - Data Preprocessing
   - Logarithm Transformation and Standardization. 
-  - <img src="https://user-images.githubusercontent.com/17235054/32513518-724ee1d8-c3c8-11e7-9580-f735cf782b81.png">
-  - <img src="https://user-images.githubusercontent.com/17235054/32513519-725b0ddc-c3c8-11e7-88fa-f6cba705d37a.png">
+  - <img src="https://user-images.githubusercontent.com/17235054/32513518-724ee1d8-c3c8-11e7-9580-f735cf782b81.png" width=700 heihgt=300>
+  - <img src="https://user-images.githubusercontent.com/17235054/32513519-725b0ddc-c3c8-11e7-88fa-f6cba705d37a.png" width=700 height=300>
   - Use Turkey's Method to detect Outlier.
 - Data Transformation
   - Implement Princial Component Analysis (PCA) on training set, and report explained variance ratio of each dimension. 
-  - <img src="https://user-images.githubusercontent.com/17235054/32410641-1ff2b492-c19c-11e7-92a8-f1f843ca45f8.png" width=700 height=350>
+  - <img src="https://user-images.githubusercontent.com/17235054/32410641-1ff2b492-c19c-11e7-92a8-f1f843ca45f8.png" width=650 height=300>
   - PCA feature dimension analysis and calculate the cumulative explained variance ratio to determine how many dimensions are necessary for the problem.
   - Dimension reduction on original data using PCA. 
   - Visualized principal components using biplot. 
