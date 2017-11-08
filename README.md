@@ -7,12 +7,12 @@ I tried to make it as clear as possible so that you can understand what we have 
 
 Feel free to make pull request if you found any mistake.
 
-##finding-donors
+## finding-donors
 
-This project utilized supervised learning methods, it aims to predict who's
+This project utilizes supervised learning methods, it aims to predict who's
 more likely to donate to a charity organization given the U.S. census data. 
 
-##customer-segments
+## customer-segments
 
 This project focuses on unsupervised learning method. It tries to segment customers of 
 a whole sale distributor into different groups, and finds the hidden relationship of features within each group. Based on the
