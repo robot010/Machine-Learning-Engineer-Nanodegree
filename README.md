@@ -11,17 +11,18 @@ Unlike the Machine Learning course on Coursera, this nanodegree is an intensive 
 
 For me, the majority of this nanodegree's content is pretty familiar. Most of them is covered by the Machine Learning course online or at school. Therefore, I think of this nanodegree as a opportunity to systemtically review the fundementals and new tools in the machine learning field. 
 
-For each required project I created its own README file  in addition to the source code, where I've included a concise outline and the important visualization of specific project. I did this at the hope of anyone who's viewing my work can have a clear and intuitive understanding of what I have done and how did I get the final result. And for optional or introductory project, source codes are uploaded.
+For each required project I created its own README file  in addition to the source code, where I've included a concise outline and the important visualization of specific project. *I did this at the hope of anyone who's viewing my work can have a clear and intuitive understanding of what I have done and how did I get the final result.* And for optional or introductory project, source codes are uploaded.
 
 ## Course Projects
 
-- Machine Learning Foundations
+- Section 1: Machine Learning Foundations
+  - [Introductory Project 1: Titanic Survival Exploration](http://localhost:8888/notebooks/machine-learning/Completed_Projects/titanic_survival_exploration/titanic_survival_exploration.ipynb)
+  - [Introductory Project 2:  Predicting Boston Housing Prices](https://github.com/Bato803/Machine-Learning-Engineer-Nanodegree/blob/master/boston_housing/README.md)
 
-This project utilizes supervised learning methods, it aims to predict who's
-more likely to donate to a charity organization given the U.S. census data. 
+- Section 2: Supervised Learning
+  - [Required Project : finding donors](https://github.com/Bato803/Machine-Learning-Engineer-Nanodegree/blob/master/finding_donors/finding_donors.ipynb)
+  - [Project Outline](https://github.com/Bato803/Machine-Learning-Engineer-Nanodegree/tree/master/finding_donors)
 
-## customer-segments
-
-This project focuses on unsupervised learning method. It tries to segment customers of 
-a whole sale distributor into different groups, and finds the hidden relationship of features within each group. Based on the
-analysis, we would be able to give valuable advice to the distributor with regard to the change of their delievery policy. 
+- Section 3: Unsupervised Learning
+  - [Required Project : customer_segments](https://github.com/Bato803/Machine-Learning-Engineer-Nanodegree/blob/master/customer_segments/customer_segments.ipynb)
+  - [Project Outline](https://github.com/Bato803/Machine-Learning-Engineer-Nanodegree/tree/master/customer_segments)
