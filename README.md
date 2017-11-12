@@ -1,4 +1,9 @@
-# Machine-Learning-Applications
+# Machine-Learning-Engineer-Nanodegree
+
+**Systematically Review of Machine Learning**
+
+Organization: Udacity
+Instructors: [Charles Isbell](https://www.cc.gatech.edu/fac/Charles.Isbell/), [Michael L. Littman](http://cs.brown.edu/~mlittman/), [Sebastian Thrun](http://robots.stanford.edu/index.html), [Katie Malone](https://www.linkedin.com/in/caitlin-malone-46050854/), [Luis Serrano](https://medium.com/@luis.serrano)
 
 The algorithms and applications that we implemented are listed below.
 In each folder, there is a README file demonstring the implementation step by step.
