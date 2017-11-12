@@ -11,7 +11,7 @@ Unlike the Machine Learning course on Coursera, this nanodegree is an intensive 
 
 For me, the majority of this nanodegree's content is pretty familiar. Most of them is covered by the Machine Learning course online or at school. Therefore, I think of this nanodegree as a opportunity to systemtically review the fundementals and new tools in the machine learning field. 
 
-For each required project I created its own README file  in addition to the source code, where I've included a concise outline and the important visualization of specific project. *I did this at the hope of anyone who's viewing my work can have a clear and intuitive understanding of what I have done and how did I get the final result.* And for optional or introductory project, source codes are uploaded.
+For each required project I created its own README file  in addition to the source code, where I've included a concise outline and the important visualization of specific project. **I did this at the hope of anyone who's viewing my work can have a clear and intuitive understanding of what I have done and how did I get the final result.** And for optional or introductory project, source codes are uploaded.
 
 ## Course Projects
 
