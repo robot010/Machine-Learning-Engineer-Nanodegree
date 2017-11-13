@@ -21,3 +21,7 @@ while the second one, each action is depending on separate state.
 - Policy is affected by how many steps left you can take. 
 - Discounted reward allows us to go infinite distance in finite time. (computer design faster and faster (infinite amount of)computer in finite time.)
 - Reward of a state is different from the utility of the state. Reward->immediate feedback. Utility->Long term benefit. 
+
+
+### Reinforcement Learning
+
