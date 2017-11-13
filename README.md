@@ -16,8 +16,8 @@ For each required project I created its own README file  in addition to the sour
 ## Course Projects
 
 - Section 1: Machine Learning Foundations
-  - [Introductory Project 1: Titanic Survival Exploration](http://localhost:8888/notebooks/machine-learning/Completed_Projects/titanic_survival_exploration/titanic_survival_exploration.ipynb)
-  - [Introductory Project 2:  Predicting Boston Housing Prices](https://github.com/Bato803/Machine-Learning-Engineer-Nanodegree/blob/master/boston_housing/README.md)
+  - [Introductory Project 1: Titanic Survival Exploration](https://github.com/Bato803/Machine-Learning-Engineer-Nanodegree/blob/master/titanic_survival_exploration/titanic_survival_exploration.ipynb)
+  - [Introductory Project 2:  Predicting Boston Housing Prices](https://github.com/Bato803/Machine-Learning-Engineer-Nanodegree/blob/master/boston_housing/boston_housing.ipynb)
 
 - Section 2: Supervised Learning
   - [Required Project : finding donors](https://github.com/Bato803/Machine-Learning-Engineer-Nanodegree/blob/master/finding_donors/finding_donors.ipynb)
