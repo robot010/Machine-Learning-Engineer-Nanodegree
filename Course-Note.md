@@ -18,4 +18,6 @@ while the second one, each action is depending on separate state.
         and ultimately we have to figure out in a given state, which action should take in order to get the ultimate reward. 
         - This is called the temporal **Credit Assignment Problem**. 
 - Reward is your domain knowledge. 
-- 
+- Policy is affected by how many steps left you can take. 
+- Discounted reward allows us to go infinite distance in finite time. (computer design faster and faster (infinite amount of)computer in finite time.)
+- Reward of a state is different from the utility of the state. Reward->immediate feedback. Utility->Long term benefit. 
