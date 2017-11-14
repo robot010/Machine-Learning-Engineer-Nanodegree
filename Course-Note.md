@@ -21,7 +21,12 @@ while the second one, each action is depending on separate state.
 - Policy is affected by how many steps left you can take. 
 - Discounted reward allows us to go infinite distance in finite time. (computer design faster and faster (infinite amount of)computer in finite time.)
 - Reward of a state is different from the utility of the state. Reward->immediate feedback. Utility->Long term benefit. 
+- Value iteration and policy iteration to solev bellman equation. 
 
 
 ### Reinforcement Learning
 
+- Q Learning: Evaluating the bellman equation from data. That's we taking states, actions get rewards, then the next state. And we are trying to learn a Q function for it. 
+- Q function: Utility function by taking a certain action. 
+- When estimating Q function, we don't have access to reward and transition funciton. All we have is transition. 
+- In RL, it's fundenmental to think of the exploration and exploitation dilemma. You have to utilize the things you know, and you also have to explore new data. It's a fundenmental tradeoff. 
