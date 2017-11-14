@@ -36,3 +36,5 @@ while the second one, each action is depending on separate state.
 
 - Definition: Mathmatics of conflict. 
 - Goes from single agent to multiple agents. 
+- Minimax and Maximin problem. 
+- Pure strategy vs mixed strategy. 
