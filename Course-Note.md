@@ -38,3 +38,4 @@ while the second one, each action is depending on separate state.
 - Goes from single agent to multiple agents. 
 - Minimax and Maximin problem. 
 - Pure strategy vs mixed strategy. 
+- Nash Equilbrium: A strategy is in Nash Equilbrim if other players have no reason to change their strategy even if they are given the chance to do so. m
