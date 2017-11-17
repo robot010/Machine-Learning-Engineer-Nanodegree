@@ -24,7 +24,7 @@ class LearningAgent(Agent):
         ## TO DO ##
         ###########
         # Set any additional class parameters as needed
-        self.t = 0
+        self.t = 1
 
     def reset(self, destination=None, testing=False):
         """ The reset function is called at the beginning of each trial.
@@ -40,7 +40,8 @@ class LearningAgent(Agent):
         # Update epsilon using a decay function of your choice
         # Update additional class parameters as needed
         # If 'testing' is True, set epsilon and alpha to 0
-        self.epsilon = self.epsilon - 0.05
+        self.epsilon = 1/(self.t*self.t)
+        self.t += 1
         if testing:
             self.epsilon = 0
             self.alpha = 0
@@ -190,7 +191,7 @@ def run():
     #   display      - set to False to disable the GUI if PyGame is enabled
     #   log_metrics  - set to True to log trial and simulation results to /logs
     #   optimized    - set to True to change the default log file name
-    sim = Simulator(env, display=True, update_delay=0.01, log_metrics=True)
+    sim = Simulator(env, display=True, update_delay=0.01, log_metrics=True, optimized=True)
     
     
     ##############
