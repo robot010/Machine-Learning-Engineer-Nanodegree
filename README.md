@@ -30,4 +30,5 @@ For each required project I created its own README file  in addition to the sour
 - Section 4: Reinforcement Learning
   - [Required Project : Smartcab (Notebook report)](https://github.com/Bato803/Machine-Learning-Engineer-Nanodegree/blob/master/smartcab/smartcab.ipynb)
   - [Q-learning implementation](https://github.com/Bato803/Machine-Learning-Engineer-Nanodegree/blob/master/smartcab/agent.py)
+  - [Video Sample](https://youtu.be/0GypqCUG4Lc)
   - [Project Outline](https://github.com/Bato803/Machine-Learning-Engineer-Nanodegree/tree/master/smartcab)
