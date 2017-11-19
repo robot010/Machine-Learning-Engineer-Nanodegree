@@ -26,3 +26,7 @@ For each required project I created its own README file  in addition to the sour
 - Section 3: Unsupervised Learning
   - [Required Project : customer_segments](https://github.com/Bato803/Machine-Learning-Engineer-Nanodegree/blob/master/customer_segments/customer_segments.ipynb)
   - [Project Outline](https://github.com/Bato803/Machine-Learning-Engineer-Nanodegree/tree/master/customer_segments)
+  
+- Section 4: Reinforcement Learning
+  - [Required Project : Smartcab](https://github.com/Bato803/Machine-Learning-Engineer-Nanodegree/blob/master/smartcab/smartcab.ipynb)
+  - [Project Outline](https://github.com/Bato803/Machine-Learning-Engineer-Nanodegree/tree/master/smartcab)
