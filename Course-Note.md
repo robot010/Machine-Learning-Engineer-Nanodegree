@@ -44,3 +44,7 @@ while the second one, each action is depending on separate state.
 ## Deep Learning
 
 ### Deep Neural Network
+
+- Cross-entropy: If we have a bunch of events, and a bunch of probabilities. How likely that the events happen based on the probabilities. If it's very likely, then we have a small cross-entropy. 
+
+- 
