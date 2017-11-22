@@ -47,4 +47,4 @@ while the second one, each action is depending on separate state.
 
 - Cross-entropy: If we have a bunch of events, and a bunch of probabilities. How likely that the events happen based on the probabilities. If it's very likely, then we have a small cross-entropy. 
 
-- 
+- L1 regularization is good for feature selection because it prefers sparse features; while L2 regularization often produces good result, and its features are homogeneously small. 
