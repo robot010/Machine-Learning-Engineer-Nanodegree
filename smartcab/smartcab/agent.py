@@ -9,7 +9,7 @@ class LearningAgent(Agent):
     """ An agent that learns to drive in the Smartcab world.
         This is the object you will be modifying. """ 
 
-    def __init__(self, env, learning=False, epsilon=1.0, alpha=0.1):
+    def __init__(self, env, learning=False, epsilon=1.0, alpha=0.8):
         super(LearningAgent, self).__init__(env)     # Set the agent in the evironment 
         self.planner = RoutePlanner(self.env, self)  # Create a route planner
         self.valid_actions = self.env.valid_actions  # The set of valid actions
@@ -24,7 +24,8 @@ class LearningAgent(Agent):
         ## TO DO ##
         ###########
         # Set any additional class parameters as needed
-        self.t = 1.0
+        self.trial_count = 0.0
+        self.a = 0.5
 
     def reset(self, destination=None, testing=False):
         """ The reset function is called at the beginning of each trial.
@@ -40,8 +41,11 @@ class LearningAgent(Agent):
         # Update epsilon using a decay function of your choice
         # Update additional class parameters as needed
         # If 'testing' is True, set epsilon and alpha to 0
-        self.epsilon = abs(math.cos(0.5*self.t))
-        self.t += 1 
+        t0 = 0
+        k = 0.2
+        self.trial_count = self.trial_count + 1
+        self.epsilon = 1 - (1/(1+math.exp(-k*self.a*(self.trial_count-t0))))
+
         if testing:
             self.epsilon = 0
             self.alpha = 0
@@ -193,7 +197,7 @@ def run():
     #   display      - set to False to disable the GUI if PyGame is enabled
     #   log_metrics  - set to True to log trial and simulation results to /logs
     #   optimized    - set to True to change the default log file name
-    sim = Simulator(env, display=True, update_delay=1, log_metrics=False,optimized=True)
+    sim = Simulator(env, display=True, update_delay=0.01, log_metrics=True,optimized=True)
     
     
     ##############
@@ -201,7 +205,7 @@ def run():
     # Flags:
     #   tolerance  - epsilon tolerance before beginning testing, default is 0.05 
     #   n_test     - discrete number of testing trials to perform, default is 0
-    sim.run(tolerance=0.0001, n_test=10)
+    sim.run(n_test=50)
 
 
 if __name__ == '__main__':
