@@ -48,3 +48,29 @@ while the second one, each action is depending on separate state.
 - Cross-entropy: If we have a bunch of events, and a bunch of probabilities. How likely that the events happen based on the probabilities. If it's very likely, then we have a small cross-entropy. 
 
 - L1 regularization is good for feature selection because it prefers sparse features; while L2 regularization often produces good result, and its features are homogeneously small. 
+
+
+### CNN
+1. CNN vs MLP:
+    - MLP treats an image as a vector, it has no idea what's the image's original spatial arrangement.
+    - CNN understands that pixels that are closer to each other are more related to each other than pixels that are far apart. 
+
+2. Local Connectivity:
+    - MLP has lots of parameters. 
+    - MLP throws away spatial information. 
+    - CNN breaks down regions in the original image, and assigns local group of pixels to different hidden nodes. Every hidden node finds pattern in only some region of the original image. 
+    - Different regions within an image share the same kind of information, therefore they share the same weights in the hidden layers. 
+    
+3. Pooling layer:
+    - Serve the purpose of reducing the number of parameters to speed up training. 
+    - Max pooling vs global average pooling. 
+
+4. Common design pattern:
+    - Increaing depth of the input array, and decrease height and width. 
+    - As we go deeper into the Convolutional layer, the spatial information is gradually losing. So we can vectorize them and feed them into fully connected layer. 
+
+5. Image Augmentation:
+    - Scale Invariance, Rotation Invariance, Translation Invariance.
+    - Max pooling has a bit property of translation invariance. 
+ 
+6. VGG pioneered the use of small 3x3 convolution windows. 
