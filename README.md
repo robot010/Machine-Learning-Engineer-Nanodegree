@@ -32,3 +32,7 @@ For each required project I created its own README file  in addition to the sour
   - [Q-learning implementation](https://github.com/Bato803/Machine-Learning-Engineer-Nanodegree/blob/master/smartcab/agent.py)
   - [Video Sample](https://youtu.be/0GypqCUG4Lc)
   - [Project Outline](https://github.com/Bato803/Machine-Learning-Engineer-Nanodegree/tree/master/smartcab)
+
+- Section 5: Deep Learning
+  - [Required Project : Dog Breed Classification](https://github.com/Bato803/Machine-Learning-Engineer-Nanodegree/blob/master/dog_breed_classification/dog_app.ipynb)
+  - [Project Outline](https://github.com/Bato803/Machine-Learning-Engineer-Nanodegree/tree/master/dog_breed_classification)
